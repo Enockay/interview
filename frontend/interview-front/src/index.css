@@ -2,11 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  display: flex;
+  justify-content: center;
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #1dcfdb;
-
+  background-color: #1d40db;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -23,16 +23,39 @@ a:hover {
 }
 
 body {
-  margin: 0;
+  place-items: center;
+  border : 3px solid rgb(248, 243, 243);
+  max-width: 600px;
+  min-height: 500px;
+  padding: 2rem;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+h4{
+  color: aqua;
 }
-
-button {
- 
+.movieInput{
+  max-width: 15rem;
+  margin-left: 2rem;
+}
+.movieTab{
+  display: flex;
+  gap: 3rem;
+}
+input{
+  background-color: #f9f9f9;
+  color : black;
+}
+.watched{
+   margin-top: 3rem;
+   text-align: center;
+   max-width: 80%;
+   border: 1px solid rgb(236, 223, 223);
+   margin-left: 3rem;
+   height: 10rem;
+}
+h5{
+  font-size: 1.2rem;
+  color: #46d61e;
 }
 
 button:hover {
